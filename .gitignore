@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Django-related files
+db.sqlite3
+*.log
+
+# Ignore the whole media and static directory if using collectstatic
+/media
+/static
+
+# VSCode settings (optional)
+.vscode/
+
+# IDE and editor files
+.idea/
+*.sublime-workspace
+
+# Git-related files
+.git/
